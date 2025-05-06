@@ -1,6 +1,6 @@
 
 import { useState } from 'react';
-import { sendToast } from '@/components/ui/sonner';
+import { toast } from '@/components/ui/sonner';
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -23,7 +23,7 @@ const ContactForm = () => {
     // Simulate form submission
     setTimeout(() => {
       console.log('Form submitted:', formData);
-      sendToast("Message sent", {
+      toast("Message sent", {
         description: "Thanks for reaching out! I'll get back to you soon.",
         position: "top-center",
       });
