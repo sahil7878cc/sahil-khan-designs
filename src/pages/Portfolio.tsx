@@ -18,8 +18,10 @@ const Portfolio = () => {
     {
       title: "Brand Identity for Fashion Label",
       category: "Branding",
+      thumbnail:
+      "https://images.unsplash.com/photo-1600132806370-bf17e65e942f?w=800&q=80",
+      fullimage: "https://images.unsplash.com/photo-1600132806370-bf17e65e942f?w=1200&q=90",
       description: "A complete brand identity design for a modern fashion label, including logo, stationery, and brand guidelines.",
-      image: "https://images.unsplash.com/photo-1532372576444-dda954194ad0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3"
     },
     {
       title: "Product Launch Animation",
